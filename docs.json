@@ -1,24 +1,26 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "nuggets",
   "colors": {
-    "primary": "#371CAC",
-    "light": "#371CAC",
-    "dark": "#371CAC"
+    "primary": "#477998",
+    "light": "#6698B7",
+    "dark": "#6698B7"
   },
   "favicon": "/nuggets.svg",
   "appearance": {
     "default": "dark",
-    "disable_theme_toggle": true  
+    "strict": true
   },
-
+  "decoration": "gradient",
+  "logo": "/nuggets.svg",
   "navigation": {
     "groups": [
       {
         "group": "Get Started",
         "pages": [
-          "introduction"
+          "introduction",
+          "premium"
         ]
       },
       {
@@ -27,14 +29,9 @@
           "start-setup/quickstart",
           "start-setup/bases",
           "start-setup/server-removal"
-
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/nuggets.svg",
-    "dark": "/nuggets.svg"
   },
   "navbar": {
     "links": [
@@ -48,15 +45,14 @@
       "label": "Invite to Discord",
       "href": "https://discord.com/oauth2/authorize?client_id=1254746991163080817",
       "colors": {
-        "primary": "#FFFFF"
+        "secondary": "#6698B7"
       }
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://discord.com/users/946409574796230697",
+      "github": "https://github.com/pommevani/mintlify-starter/tree/main"
     }
   }
 }

@@ -1,0 +1,10 @@
+/* Hide theme toggle button */
+[aria-label="Toggle theme"],
+.theme-toggle,
+.dark-mode-toggle,
+[data-theme-toggle] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+} 
