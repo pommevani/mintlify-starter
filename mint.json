@@ -15,7 +15,7 @@
   "appearance": {
     "default": "dark",
     "strict": true,
-    "radius": "0.7rem"
+    "radius": "0.5rem"
   },
   "logo": "/favicon.png",
   "navigation": [
