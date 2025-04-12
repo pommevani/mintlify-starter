@@ -9,44 +9,32 @@
   },
   "favicon": "/nuggets.svg",
   "appearance": {
-  "default": "dark",
-  "disable_theme_toggle": true  
-},
+    "default": "dark",
+    "disable_theme_toggle": true  
+  },
 
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart"
-            ]
-          },
-          {
-            "group": "Start setup",
-            "pages": [
-              "start-setup/markdown",
-              "start-setup/code",
-              "start-setup/images",
-              "start-setup/settings",
-              "start-setup/navigation",
-              "start-setup/reusable-snippets"
-            ]
-          }
+        "group": "Get Started",
+        "pages": [
+          "introduction"
+        ]
+      },
+      {
+        "group": "Start setup",
+        "pages": [
+          "quickstart",
+          "start-setup/bases",
+          "start-setup/server-removal"
+
         ]
       }
-    ],
-    "global": {
-      "anchors": []
-    }
+    ]
   },
   "logo": {
-    "light": "/nuggetslogo.svg",
-    "dark": "/nuggetslogo.svg",
-    "filter": false
+    "light": "/nuggets.svg",
+    "dark": "/nuggets.svg"
   },
   "navbar": {
     "links": [
