@@ -1,3 +1,140 @@
 <head>
-  <link rel="stylesheet" href="/style.css" />
+  {/* Mintlify will handle the Prism theme */}
+  {/* Prism Theme */}
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css"
+  />
+  
+  {/* Prism Core */}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+  
+  {/* Prism Essential */}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+  
+  {/* Additional Languages */}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-css.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markdown.min.js"></script>
+  
+  {/* Prism Plugins */}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+  
+  {/* Plugin Styles */}
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/toolbar/prism-toolbar.min.css"
+  />
+  
+  {/* Custom Styles */}
+  <style>
+    {`
+      pre[class*="language-"] {
+        background: #2d2d2d;
+      }
+      
+      :not(pre) > code[class*="language-"],
+      pre[class*="language-"] {
+        background: #2d2d2d;
+      }
+      
+      .token.comment,
+      .token.block-comment,
+      .token.prolog,
+      .token.doctype,
+      .token.cdata {
+        color: #999;
+      }
+      
+      .token.punctuation {
+        color: #ccc;
+      }
+      
+      .token.tag,
+      .token.attr-name,
+      .token.namespace,
+      .token.deleted {
+        color: #e2777a;
+      }
+      
+      .token.function-name {
+        color: #6196cc;
+      }
+      
+      .token.boolean,
+      .token.number,
+      .token.function {
+        color: #f08d49;
+      }
+      
+      .token.property,
+      .token.class-name,
+      .token.constant,
+      .token.symbol {
+        color: #f8c555;
+      }
+      
+      .token.selector,
+      .token.important,
+      .token.atrule,
+      .token.keyword,
+      .token.builtin {
+        color: #cc99cd;
+      }
+      
+      .token.string,
+      .token.char,
+      .token.attr-value,
+      .token.regex,
+      .token.variable {
+        color: #7ec699;
+      }
+      
+      .token.operator,
+      .token.entity,
+      .token.url {
+        color: #67cdcc;
+      }
+      
+      .token.important,
+      .token.bold {
+        font-weight: bold;
+      }
+      
+      .token.italic {
+        font-style: italic;
+      }
+      
+      .token.entity {
+        cursor: help;
+      }
+      
+      .token.inserted {
+        color: green;
+      }
+    `}
+  </style>
+
+  {/* Initialize Prism */}
+  <script>
+    {`
+      window.Prism = window.Prism || {};
+      Prism.manual = true;
+      document.addEventListener('DOMContentLoaded', (event) => {
+        Prism.highlightAll();
+      });
+    `}
+  </script>
 </head>
