@@ -7,7 +7,7 @@
     "light": "#6698B7",
     "dark": "#6698B7"
   },
-  "favicon": "/nuggets.svg",
+  "favicon": "/images/nuggetstransparenticon.png",
   "appearance": {
     "default": "dark",
     "strict": true
