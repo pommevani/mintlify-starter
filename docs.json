@@ -24,7 +24,7 @@
       {
         "group": "Start setup",
         "pages": [
-          "quickstart",
+          "start-setup/quickstart",
           "start-setup/bases",
           "start-setup/server-removal"
 
