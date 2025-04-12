@@ -1,0 +1,60 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "theme": "prism",
+  "name": "nuggets",
+  "colors": {
+    "primary": "#477998",
+    "light": "#6698B7",
+    "dark": "#6698B7",
+    "anchors": {
+      "from": "#477998",
+      "to": "#6698B7"
+    }
+  },
+  "favicon": "/favicon.png",
+  "appearance": {
+    "default": "dark",
+    "strict": true,
+    "radius": "0.7rem"
+  },
+  "logo": "/favicon.png",
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": ["introduction", "premium"]
+    },
+    {
+      "group": "Start Setup",
+      "pages": [
+        "start-setup/quickstart",
+        "start-setup/bases",
+        "start-setup/server-removal"
+      ]
+    }
+  ],
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "https://discord.gg/WvWt4TNUyK"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Invite to Discord",
+    "url": "https://discord.com/oauth2/authorize?client_id=1254746991163080817"
+  },
+  "navbar": {
+    "search": {
+      "position": "right"
+    }
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
+  "footer": {
+    "socials": {
+      "podcast": "mailto:@nuggets.bot@writeme.com",
+      "discord": "https://discord.com/users/946409574796230697"
+    }
+  }
+}
