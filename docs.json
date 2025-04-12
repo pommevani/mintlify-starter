@@ -12,19 +12,18 @@
     "default": "dark",
     "strict": true
   },
-  "decoration": "gradient",
   "logo": "/nuggets.svg",
   "navigation": {
     "groups": [
       {
-        "group": "Get Started",
+        "group": "Overview",
         "pages": [
           "introduction",
           "premium"
         ]
       },
       {
-        "group": "Start setup",
+        "group": "Start Setup",
         "pages": [
           "start-setup/quickstart",
           "start-setup/bases",
@@ -43,10 +42,7 @@
     "primary": {
       "type": "button",
       "label": "Invite to Discord",
-      "href": "https://discord.com/oauth2/authorize?client_id=1254746991163080817",
-      "colors": {
-        "secondary": "#6698B7"
-      }
+      "href": "https://discord.com/oauth2/authorize?client_id=1254746991163080817"
     }
   },
   "footer": {
