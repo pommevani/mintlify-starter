@@ -42,11 +42,6 @@
     "name": "Invite to Discord",
     "url": "https://discord.com/oauth2/authorize?client_id=1254746991163080817"
   },
-  "navbar": {
-    "search": {
-      "position": "right"
-    }
-  },
   "modeToggle": {
     "default": "dark",
     "isHidden": true
